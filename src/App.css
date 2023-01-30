@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    background-size: 100vh;
+    background-color: rgb(220, 220, 220);
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 100vh;
+    min-width: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.all{
+    width: 400px;
+    margin-left: 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.inner{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forDf{
+    margin-top: 35px;
+    display: flex;
+    height: fit-content;
+    width: 300px;
+}
+.todo{
+    border-radius: 7.4px;
+    background-color: aliceblue;
+    width: 400px;
+    line-break: anywhere;
+    display: flex;
+    margin-bottom: 11px;
+}
+.todoText{
+    width: 300px;
+}
+form{
+    margin-bottom: 14px;
+}
+button{
+    cursor: pointer;
+}
+.todoText.done{
+    text-decoration: line-through;
+}
+.for{
+    font-size: 14px;
+    max-height: 40px;
+    display: inline-grid;
+}
+.ny{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
 }
